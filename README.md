@@ -1,0 +1,3 @@
+# Testing previous RIE implemententions
+
+This notebook documents some testing done function by function on a previous implementetion of the RIE estimator. A couple of calculations are either wrong or different from the cited article  *Cleaning large Correlation Matrices: tools from Random Matrix Theory* by J. Bun, J.-P. Bouchaud and M. Potters. This differences have been addressed and some functions of the previous implementation have been otpimized through vectorization in order to improve the speed of execution. This changes have been implemented in a new version that can be found in LINK and follow faithfully the recipe proposed by Bun and Bouchaud in the article *Cleaning Correlation Matrices (2016)* published in the April 2016 relase of the Risk Magazine.
